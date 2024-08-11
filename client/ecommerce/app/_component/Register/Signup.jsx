@@ -111,7 +111,7 @@ const [showPassword, setShowPassword] = useState(false)
           
           className="flex items-center justify-center w-full h-full px-4 py-12 sm:px-12 ">
             <div>
-              <h1 className="mt-4 text-2xl font-bold text-gray-900 sm:text-3xl md:text-4xl">
+              <h1 className="mt-4 text-2xl font-bold sm:text-3xl md:text-4xl">
                 Welcome to Exclusive
               </h1>
 
@@ -128,7 +128,7 @@ const [showPassword, setShowPassword] = useState(false)
                     type="text"
                     id="username"
                     name="username"
-                    className="w-full p-2 mt-1 text-sm  text-black border-b border-[#808080] focus:outline-none "
+                    className="w-full p-2 mt-1 text-sm  border-b border-[#808080] focus:outline-none "
                   />
                 </div>
 
@@ -140,7 +140,7 @@ const [showPassword, setShowPassword] = useState(false)
                     type="text"
                     id="last_name"
                     name="last_name"
-                    className="w-full p-2 mt-1 text-sm  text-black border-b border-[#808080] focus:outline-none "
+                    className="w-full p-2 mt-1 text-sm  border-b border-[#808080] focus:outline-none "
                   />
                 </div>
 
@@ -152,7 +152,7 @@ const [showPassword, setShowPassword] = useState(false)
                     type="email"
                     id="email"
                     name="email"
-                    className="w-full p-2 mt-1 text-sm  text-black border-b border-[#808080] focus:outline-none "
+                    className="w-full p-2 mt-1 text-sm  border-b border-[#808080] focus:outline-none "
                   />
                 </div>
 
@@ -164,7 +164,7 @@ const [showPassword, setShowPassword] = useState(false)
                     type={showPassword?"text":"password"}
                     id="password"
                     name="password"
-                    className="w-full p-2 mt-1 text-sm  text-black border-b border-[#808080] focus:outline-none "
+                    className="w-full p-2 mt-1 text-sm   border-b border-[#808080] focus:outline-none "
                   />
                   <span onClick={handleShowPassword} className="absolute right-2 top-3">
 {showPassword?<EyeOff /> :<Eye />}
@@ -179,7 +179,7 @@ const [showPassword, setShowPassword] = useState(false)
                     type="text"
                     id="phone"
                     name="phone"
-                    className="w-full p-2 mt-1 text-sm  text-black border-b border-[#808080] focus:outline-none "
+                    className="w-full p-2 mt-1 text-sm  border-b border-[#808080] focus:outline-none "
                   />
                 </div>
                 <div className="col-span-4 ">
@@ -190,7 +190,7 @@ const [showPassword, setShowPassword] = useState(false)
                     type="number"
                     id="age"
                     name="age"
-                    className="w-full p-2 mt-1 text-sm  text-[#999999] border-b border-[#808080] focus:outline-none "
+                    className="w-full p-2 mt-1 text-sm   border-b border-[#808080] focus:outline-none "
                   />
                 </div>
 

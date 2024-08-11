@@ -1,6 +1,6 @@
 import toast from "react-hot-toast";
 
-const { createSlice, isAsyncThunkAction } = require("@reduxjs/toolkit");
+const { createSlice } = require("@reduxjs/toolkit");
 
 const whishSlice = createSlice({
     name:"whish",
@@ -14,7 +14,7 @@ const whishSlice = createSlice({
             if (!product) {
                 state.allProducts.push(action.payload);
                 localStorage.setItem('whish', JSON.stringify(state.allProducts));
-                toast.success("your product add successfully")
+                toast.success("Your product was saved successfully.")
 
             }           
         },

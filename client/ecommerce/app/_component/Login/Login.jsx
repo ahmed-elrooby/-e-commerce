@@ -102,10 +102,10 @@ function SignIn() {
           
           className="flex items-center h-full w-full justify-center px-4 py-12 sm:px-12]">
             <div>
-              <h1 className="mt-6 text-2xl font-bold text-gray-900 sm:text-3xl md:text-4xl">
+              <h1 className="mt-6 text-2xl font-bold sm:text-3xl md:text-4xl">
                 Welcome to Exclusive
               </h1>
-              <p className="mt-6 font-bold text-black">Enter your details below</p>
+              <p className="mt-6 font-bold ">Enter your details below</p>
               <form
                 action="#"
                 className="grid w-full grid-cols-2 gap-6 mt-8"
